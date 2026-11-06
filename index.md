@@ -2,6 +2,7 @@
 
 **Effective date:** 6 November 2026
 **Applies to:** Pocketa (`com.yashtries.voicebudget`) for Android
+**Published at:** https://yashtries.github.io/pocketa-privacy/
 
 Pocketa is a voice-first expense tracker. This policy explains what data the
 app handles, why it is handled, and the choices you have. It applies to the
