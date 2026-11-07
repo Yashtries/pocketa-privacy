@@ -82,8 +82,9 @@ above.
 - Local data can be exported, edited or deleted in the app, and is removed when
   you uninstall the app.
 - Cloud backup data remains in your Firebase project until it is deleted. To
-  request deletion of cloud backup data, contact us at the address below; we
-  will delete records associated with your account.
+  request deletion of cloud backup data, follow the steps at
+  <https://yashtries.github.io/pocketa-privacy/delete-account/> or contact us at
+  the address below; we will delete records associated with your account.
 - Usage counters stored as hashed installation identifiers are retained only as
   long as needed to enforce usage limits.
 
