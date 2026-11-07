@@ -1,11 +1,12 @@
-# Delete your Pocketa account and data
+# Delete your Pocketa data or account
 
 **Applies to:** Pocketa (`com.yashtries.voicebudget`) for Android
 **Effective date:** 6 November 2026
 
 Pocketa works without an account. If you enabled the optional Firebase cloud
-backup, an account exists under your Google sign-in. This page explains how to
-delete your data and what is deleted or kept.
+backup, an account exists under your Google sign-in. You can delete some or all
+of your data without deleting your account, or ask us to delete the account as
+well. This page explains how, and what is deleted or kept.
 
 ## Delete local data on your device
 
@@ -16,16 +17,27 @@ delete your data and what is deleted or kept.
 Uninstalling the app also removes all local data. This does **not** delete a
 Firebase cloud backup.
 
-## Delete your cloud backup and account
+## Delete cloud data without deleting your account
 
 1. Email **Sareenash94@gmail.com** from the Google account you used for backup.
 2. Use the subject **"Delete my Pocketa data"**.
 3. We will verify ownership of the account and delete the Cloud Firestore
-   records stored under your user ID, then confirm by email.
+   records stored under your user ID, then confirm by email. Your Google and
+   Firebase sign-in account remains active, but it will have no Pocketa backup
+   data.
 
 Turning off Firebase cloud backup in Settings stops future syncing, but it does
 not delete data that is already stored in the cloud. Follow the steps above to
 delete existing cloud data.
+
+## Delete your account as well
+
+1. Email **Sareenash94@gmail.com** from the Google account you used for backup.
+2. Use the subject **"Delete my Pocketa account"**.
+3. We will verify ownership, delete the Cloud Firestore records under your user
+   ID and delete the Firebase Authentication user, then confirm by email.
+4. Delete the app's local data separately (Settings → **Delete all data**, or
+   uninstall the app).
 
 ## What is deleted
 
@@ -33,6 +45,8 @@ delete existing cloud data.
   you use **Delete all data** or uninstall the app.
 - **Cloud backup data:** categories and expenses stored in Cloud Firestore under
   your Firebase user ID. Deleted within 30 days of a verified request.
+- **Account (only if requested):** the Firebase Authentication user associated
+  with your Google sign-in. Deleted within 30 days of a verified request.
 
 ## What is kept
 
